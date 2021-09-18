@@ -16,8 +16,6 @@ const b3 = document.getElementById("b3");
 const b4 = document.getElementById("b4");
 const b5 = document.getElementById("b5");
 
-const defaultColor = "yellowgreen";
-
 const smallFont = "80%";
 const smallerBig = "90%";
 const bigFont = "105%";
