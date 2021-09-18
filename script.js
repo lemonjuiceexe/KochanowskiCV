@@ -22,6 +22,9 @@ const smallFont = "80%";
 const smallerBig = "90%";
 const bigFont = "105%";
 
+fc.style.fontSize = "100%";
+b1.checked = true;
+
 document.addEventListener('scroll', () =>
 {
     const fOffset = Math.abs(Offset(f));
