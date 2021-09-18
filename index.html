@@ -7,84 +7,130 @@
     <title>CV Kochanowskiego</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Nunito&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div id="wrapper">
-        <div class="box" id="one">
-            <div class="inner" id="in1">
-                <div id="surname">
-                    <p class="tt"><b>Jan Kochanowski</b></p>
+    <div>
+        <div id="scrollmenu">
+            <ul>
+                <li>
+                    <label class="customradio">
+                        <input id="b1"type="radio" name="sample" onclick="Scroll(1)" checked>
+                        <span class="fill"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="customradio">
+                        <input id="b2"type="radio" name="sample" onclick="Scroll(2)">
+                        <span class="fill"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="customradio">
+                        <input id="b3"type="radio" name="sample" onclick="Scroll(3)">
+                        <span class="fill"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="customradio">
+                        <input id="b4"type="radio" name="sample" onclick="Scroll(4)">
+                        <span class="fill"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="customradio">
+                        <input id="b5"type="radio" name="sample" onclick="Scroll(5)">
+                        <span class="fill"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div id="content">
+            <div class="box" id="one">
+                <div class="inner" id="in1">
+                    <div id="surname">
+                        <p class="tt"><b>Jan Kochanowski</b></p>
+                    </div>
+                    <div id="photo">
+                        <img id="photoimg" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Jan_Kochanowski.png">
+                    </div>
+                    <div id="personaldata">
+                        <p>Urodzony w 1530 r. w Sycynie, zamieszkały w Czarnolesie. Polski poeta, tłumacz i dramaturg.</p>
+                    </div>
                 </div>
-                <div id="photo">
-                    <img id="photoimg" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Jan_Kochanowski.png">
+            </div>
+            <div class="box" id="two">
+                <div class="inner" id="in2">
+                    <p class="tt"><b>Umiejętności</b></p>
+                    <ul>
+                        <li>Wybitne umiejętności literackie i poetyckie. Twórczość uznawana w całej Europie.</li>
+                        <li>Aktywność w polityce krajowej jak i lokalnej, znajomość aktualnych układów politycznych.</li>
+                        <li>Biegła znajomość języka polskiego i łaciny.</li>
+                    </ul>
                 </div>
-                <div id="personaldata">
-                    <p>Urodzony w 1530 r. w Sycynie, zamieszkały w Czarnolesie. Poeta, tłumacz i dramaturg.</p>
+            </div>
+            <div class="box" id="three">
+                <div class="inner" id="in3">
+                    <p class="tt" id="tt3"><b>Doświadczenie zawodowe</b></p>
+                    <ul>
+                        <li>
+                            <p>Dwór królewski - sekretarz królewski</p>
+                            <p id="yr">1563 - dożywotnio</p>
+                        </li>
+                        <li>
+                            <p>Dwór królewski Stefana Batorego - nadworny poeta</p>
+                            <p id="yr">1579</p>
+                        </li>
+                        <li>
+                            <p>Probostwo poznańskie i zwoleńskie - pleban</p>
+                            <p id="yr">1564/66 - 1574/75</p>
+                        </li>
+                        <li>
+                            <p>Dwory Tarnowskich, Tęczyńskich, Firlejów - dworzanin</p>
+                            <p id="yr">1559 - 1562</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="box" id="two">
-            <div class="inner" id="in2">
-                <p class="tt"><b>Umiejętności</b></p>
-                <ul>
-                    <li>Wybitne umiejętności literackie i poetyckie. Twórczość uznawana w całej Europie.</li>
-                    <li>Aktywność w polityce krajowej jak i lokalnej, znajomość aktualnych układów politycznych.</li>
-                    <li>Biegła znajomość języka polskiego i łaciny.</li>
-                </ul>
+            <div class="box" id="four">
+                <div class="inner" id="in4">
+                    <p class="tt"><b>Wykształcenie</b></p>
+                    <ul>
+                        <li>
+                            <p>Uniwersytet w Padwie</p>
+                            <p id="yr">1552 - 1555</p>
+                        </li>
+                        <li>
+                            <p>Uniwersytet w Królewcu</p>
+                            <p id="yr">1551-1552</p>
+                        </li>
+                        <li>
+                            <p>Akademia Krakowska</p>
+                            <p id="yr">1544 - 1549</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="box" id="three">
-            <div class="inner" id="in3">
-                <p class="tt" id="tt3"><b>Doświadczenie zawodowe</b></p>
-                <ul>
-                    <li>
-                        <p>Dwór królewski - sekretarz królewski</p>
-                        <p id="yr">1563 - dożywotnio</p>
-                    </li>
-                    <li>
-                        <p>Dwór królewski Stefana Batorego - nadworny poeta</p>
-                        <p id="yr">1579</p>
-                    </li>
-                    <li>
-                        <p>Probostwo poznańskie i zwoleńskie - pleban</p>
-                        <p id="yr">1564/66 - 1574/75</p>
-                    </li>
-                    <li>
-                        <p>Dwory Tarnowskich, Tęczyńskich, Firlejów - dworzanin</p>
-                        <p id="yr">1559 - 1562</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="box" id="four">
-            <div class="inner" id="in4">
-                <p class="tt"><b>Wykształcenie</b></p>
-                <ul>
-                    <li>
-                        <p>Uniwersytet w Padwie</p>
-                        <p id="yr">1552 - 1555</p>
-                    </li>
-                    <li>
-                        <p>Uniwersytet w Królewcu</p>
-                        <p id="yr">1551-1552</p>
-                    </li>
-                    <li>
-                        <p>Akademia Krakowska</p>
-                        <p id="yr">1544 - 1549</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="box" id="five">
-            <div class="inner" id="in5">
-                <p class="tt"><b>Osiągnięcia</b></p>
-                <ul>
-                    <li>
-                        <p>Osiągnięcie statusu jednego z najwybitniejszych europejskich twórców renesansowych.</p>
-                        <p>Ogromny wkład w rozwój polszczyzny.</p>
-                        <p>Twórczość zaliczana do klasyki polskiej literatury.</p>
-                    </li>
-                </ul>
+            <div class="box" id="five">
+                <div class="inner" id="in5">
+                    <p class="tt"><b>Osiągnięcia</b></p>
+                    <ul>
+                        <li>
+                            <p>Osiągnięcie statusu jednego z najwybitniejszych europejskich twórców renesansowych.</p>
+                        </li>
+                        <li>
+                            <p>Ogromny wkład w rozwój polszczyzny.</p>
+                        </li>
+                        <li>
+                            <p>Twórczość zaliczana do klasyki polskiej literatury.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>    
