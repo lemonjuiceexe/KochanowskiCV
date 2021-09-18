@@ -1,0 +1,51 @@
+*
+{
+    font-size : 120%;
+}
+
+#one
+{
+
+    background-color:yellow;
+}
+#two
+{
+
+    background-color:crimson;
+}
+#three
+{
+
+    background-color:dodgerblue;
+}
+
+#in1
+{
+    background-color: green;
+}
+#in2
+{
+    background-color: red;
+}
+#in3
+{
+    background-color: blue;
+}
+
+.box
+{
+    display : inline-block;
+    height : 18em;
+    width : 90%;
+    margin : 0 2% 0 8%;
+}
+.inner
+{
+    display: inline-block;
+    position : relative;
+    top : 30%;
+    width : 80%;
+    left : 10%;
+    font-size : 80%;
+    text-align: center;
+}
