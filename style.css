@@ -93,13 +93,22 @@ body
 
     background-color: #B4E7CE;
 }
+#yr
+{
+    font-size : 0.9em;
+    font-style : italic;
+}
 #one
 {
     margin-top : 0;
 }
-#one, #two
+#one
 {
     margin-bottom : 2em;
+}
+#two
+{
+    margin-bottom : 4em;
 }
 
 #in1
@@ -125,28 +134,42 @@ body
     height : 8em;
     width : auto;
 }
+img
+{
+    border : 3px solid black;
+    border-radius : 5%;
+}
 
 #three
 {
-    margin-bottom : 19em;
+    margin-bottom : 14em;
+}
+#tt3
+{
+    font-size : 1.1em;
+    transition : font-size var(--transitionspeed);
+}
+#in3 ul
+{
+    font-size : 1em;
+}
+#in4 ul, #in5 ul
+{
+    font-size : 0.95em;
 }
 
 #four
 {
-    margin-bottom : 12em;
+    margin-bottom : 8em;
 }
 ul
 {
     list-style:circle;
 }
-#tt3
-{
-    transition : font-size var(--transitionspeed);
-}
 
 #five
 {
-    margin-bottom : 15em;
+    margin-bottom : 7em;
 }
 
 #footer
